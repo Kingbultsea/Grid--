@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+<body>
+<head>
+<style>
+.main{
+  margin:0 auto;
+  width:60vw;
+  padding-top:10vh;
+  
+}
+*{
+  box-sizing:border-box;
+  
+}
+img{
+  display:block;
+  max-width:100%;
+}
+.content{
+  padding-bottom:3em;
+  overflow:hidden;
+}
+</style>
+</head>
+
+<div class="main">
+<h1>谈谈css中的polygon的用法</h1>
+<p>兼容性:</p>
+<img title="8" src="http://wx2.sinaimg.cn/mw690/006Zdy2vgy1ftr5zghi23j30st09iq42.jpg" />
+<p>api:</p>
+<img titile="9" src="http://wx1.sinaimg.cn/mw690/006Zdy2vgy1ftr6nd5eu5j30um0du79w.jpg">
+<h3>一.circle():</h3>
+<p>shape-outside:circle();会直接把图形变成圆形，假如你问，我的图形并不是正方形，那浏览器怎么计算呀，和border-radius：50%是一样的。括号里面的默认值是50%，你可以填写下其他数值来感受下变化，这里就不细说了。我这里添加了margin-right:2em 等会说一下margin-box。</p>
+<div class="content">
+<img style="width:10em;float:left;border-radius:50%;shape-outside:circle();margin-right:1em"src="http://wx3.sinaimg.cn/mw690/006Zdy2vgy1frycouipnpj305e05e405.jpg">
+喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵，对了我不是猫腔。
+</div>
+<h3>二.ellipse():</h3>
+就是椭圆形了ellipse(宽 高 at % %);这里我做个示范 ellipse:(宽/2  高/2 at 50% 50%)
+<div class="content">
+<div style="width:10em;height:16em;background-color:#eee;float:left;shape-outside:ellipse(5em 8em at 50% 50%)"></div>
+喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵，对了我不是猫腔。
+</div>
+<h3>三.
+content-box;
+border-box;
+padding-box:</h3>
+<p>你把第一个例子 设置成shape-outside:border-box;你会发现文档流变近了，这实际上是告诉浏览器：嘿，帮我弄个多边形，以border为准哦。
+如果你设置成margin-box;你会发现这和circle()一样。你亲手设置成padding-box试试吧，同一个意思，注意我设置了boxsizing:border-box。</p>
+
+<h3>四.polygon():</h3>
+<p>这个是用来设置多边形的，例子polygon(50% 0, 100% 50%, 50% 100%, 0 50%,45.3% 36%,48.2%,90%,50% 100%, 0 50%,45.3% 36%);你也许会问，哇这是什么？这个你不用担心用一下tools就可以自动设置了，所以自己设置吧。注意看下版本，我的谷歌版本有点低，没有shape这个工具</p>
+<img title="10" src="http://wx2.sinaimg.cn/large/006Zdy2vgy1ftr7z612sbj316c0te4p3.jpg"><br/><br/>
+<div class="content">
+<div style="width:10em;height:16em;background-color:#eee;float:left;"></div>
+喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵，对了我不是猫腔。
+</div>
+
+
+<h3>五.url(.png)</h3>
+<div class="content">
+<p>url(.png到底是什么东西？其实就是利用png来控制文档流)</p>
+<img title="11" src="http://wx3.sinaimg.cn/mw690/006Zdy2vgy1ftr8n8cmr7j30mj0fh0xq.jpg"><br/>
+<img title="12" src="http://wx1.sinaimg.cn/mw690/006Zdy2vgy1ftr8pm2vz7j30ju0eaac8.jpg">
+</div>
+
+
+<h3>六.shape-outside: inset(10px 10px 10px 10px)</h3>
+<div class="content">
+insert(top right bottom left)
+意思是图形的切角  (width/2   -right) 你就会发现文档流向左靠近了right。
+<p>参数可以是负值</p>
+</div>
+
+
+<h3>七.其他</h3>
+<div class="content">
+<h4>①shape-outside改变的是文档流(floats)，对其他并无影响。</h4>
+<h4>②shape-outside不仅仅是用在float布局的图片中,可以用在任何float</h4>
+<img title="13" src="http://wx4.sinaimg.cn/large/006Zdy2vgy1ftr91itd4uj315j0pk1kx.jpg">
+</div>
+
+参考:<a href="https://www.youtube.com/watch?v=pOB75oTNhw0&feature=youtu.be">Obliterate Boxiness with CSS Shapes</a>
+</div>
+
+</body>
+
+</html>
