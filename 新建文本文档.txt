@@ -1,2 +1,8 @@
 建议用float 当你所有item都是拥有一样的宽高比
 display :inline-block    | inline 这样会有默认行高哦？然后设置成block 这样我们就可以不要行高了
+
+现在Grid的兼容性非常好了 现在是level one阶段
+假如你有文字作为item 那么这个对于开发者是anonymous item但对用户来说是存在的
+subgrid将要到来(这个应该就是 我的example那样继承了吧)
+
+grid-gap是无法放置内容的 假如你想放置内容 你可以设置大的track和小的track这样来制造小cell大cell
